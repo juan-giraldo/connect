@@ -1,0 +1,154 @@
+*{
+  margin:0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App a{
+  position: absolute;  
+  top: 0;
+  right: 0;
+}
+
+body {
+  background-image: url(https://www.ufinet.com/wp-content/uploads/2015/09/shutterstock_287925749-Capilaridad-01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#form_login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin-top: 15vh;
+  font-size: 14vh;
+  text-transform: uppercase;
+  text-shadow: 0.5vh 0.5vh #000000;
+  color: rgb(14, 14, 114);
+  font-weight: bold;
+}
+
+#form_login input {
+    margin-top: 8vh;
+    background-color: rgb(244, 244, 244);
+    border: 2px solid #ccc
+}
+
+.Boton{
+  margin-top: 3vh;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #ffffff;
+  border: 2px solid   #000000; /* Nuevo color de fondo al hacer hover */
+}
+
+.header{
+  /* display: inline-block; */
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.manual {
+  margin-right: 1vw;
+  min-width: 11vw;
+  min-height: 9vh;
+  height: 10vh;
+  width: 12.8vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#icon{
+  height: 9vh;
+  margin-top:0.8vh;
+  margin-left: 2vw;
+}
+
+.Prompt{
+  width: 60vw;
+  height: 70vh;
+  margin: auto; 
+}
+.promp-body{
+  text-align: justify;
+  background-color: rgb(0, 0, 0);
+  height:60vh;
+  grid-template-columns: repeat(2.1fr); 
+  grid-template-areas: "n1 n2";
+  margin-left: 12vw;
+  margin-right: 12vw;
+  margin-bottom: 5vh;
+  border-radius: 8px;
+}
+
+.container_head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 2vh;
+  margin-left: 1vw;
+  margin-bottom: 3vh;
+}
+
+.Icono{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 4vw;
+  margin-right: 2vw;
+  margin-left: 1vw;
+}
+.Manual{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.promp-body p{
+  margin: 0.3vw;
+  color: aliceblue;
+}
+
+.prompt-footer input{
+    width: 62%;
+    margin-bottom: 5vh;
+}
+.prompt-footer button{
+  width: 5%;
+}
+
+.drop{
+  margin-top: 6vh;
+}
+.items {
+  width: 100%;
+  text-align: center !important;
+  padding-left: 50vh;
+}
+
+.items > .dropdown-item {
+  border: 1px solid #0c0c0c;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th, td {
+  border: 1px solid black !important;
+  padding: 10px;
+  min-width: 20vw;
+}
